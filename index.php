@@ -144,7 +144,7 @@
                     for ( let i=1; i<=10; i++) {
                         $(`#q${i}Feedback`).html("");
                         $(`#q${i}Feedback`).attr("class", "bg-white text-white");
-                        $(`#markImg${index}`).html("");
+                        $(`#markImg${i}`).html("");
                     }
                     
                     if (!isFormValid()) {
