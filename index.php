@@ -144,6 +144,7 @@
                     for ( let i=1; i<=10; i++) {
                         $(`#q${i}Feedback`).html("");
                         $(`#q${i}Feedback`).attr("class", "bg-white text-white");
+                        $(`#markImg${index}`).html("");
                     }
                     
                     if (!isFormValid()) {
@@ -232,7 +233,7 @@
                         wrongAnswer(9);
                     }
                     
-                    //Question 10
+                    //Question 10s
                     if ($("#eagle").css("background-color") == "rgb(200, 150, 50)") {
                         rightAnswer(10);
                     }
