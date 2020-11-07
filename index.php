@@ -348,7 +348,7 @@
         <div id = "q10Feedback"></div>
         <br>
         
-        <h3 id="validationFdbk" class="bg-warning test-white"></h3>
+        <h3 id="validationFdbk" class="bg-warning text-white"></h3>
         <br>
         <button id="submitButton" class="btn btn-outline-primary">Submit</button>
         <br><br>
